@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Montez|Noto+Sans+JP:400,700');
+body {
+    overflow-x: hidden;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: $pastel-red;
+}
+
+#home,
+.nav {
+    font-family: 'Lilita One', sans-serif;
+}

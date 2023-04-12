@@ -1,0 +1,78 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+/*--- Navigation --*/
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+    background: rgba(255, 198, 198, 0.774)!important;
+}
+
+.navbar-brand img {
+    height: 4rem;
+}
+
+.navbar-nav li {
+    padding-right: 1rem;
+}
+
+.navbar-light {
+    background-color: #fff;
+    .navbar-nav {
+        .nav-link {
+            color: #fff;
+            padding-top: 0.8rem;
+            &.active {
+                color: $violet;
+            }
+            &:hover {
+                color: $violet;
+            }
+        }
+    }
+}
+
+
+/*--- Carousel --*/
+
+.carousel-item {
+    transition: transform 2s ease-in-out;
+    img {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    text-transform: uppercase;
+    h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        letter-spacing: 0.5rem;
+        text-shadow: .5rem .5rem 1.5rem #111;
+        color: #fff;
+        padding-bottom: 5rem;
+    }
+    .btn-lg {
+        border-width: medium;
+        border-radius: 1rem;
+        color: $pastel-red;
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    .nav-icon {
+        font-size: 5rem;
+        position: absolute;
+        bottom: -75%;
+        color: #fff;
+    }
+}

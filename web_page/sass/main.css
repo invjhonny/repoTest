@@ -1,0 +1,490 @@
+@charset "UTF-8";
+/*--- Navigation --*/
+@import url("https://fonts.googleapis.com/css?family=Lilita+One|Montez|Noto+Sans+JP:400,700");
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: .1rem;
+  background: rgba(255, 198, 198, 0.774) !important;
+}
+
+.navbar-brand img {
+  height: 4rem;
+}
+
+.navbar-nav li {
+  padding-right: 1rem;
+}
+
+.navbar-light {
+  background-color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  padding-top: 0.8rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #cc75f0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #cc75f0;
+}
+
+/*--- Carousel --*/
+.carousel-item {
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: -webkit-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
+  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100vh;
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  text-shadow: .5rem .5rem 1.5rem #111;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+.caption .btn-lg {
+  border-width: medium;
+  border-radius: 1rem;
+  color: #ffbebc;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.caption .nav-icon {
+  font-size: 5rem;
+  position: absolute;
+  bottom: -75%;
+  color: #fff;
+}
+
+#concept {
+  padding: 20rem 0;
+}
+
+#concept h2 {
+  border: 2rem solid #ffbebc;
+  border-radius: 1rem;
+  opacity: 0.7;
+  font-size: 2.5rem;
+}
+
+#instagram .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-rows: (5vw)[4];
+      grid-template-rows: repeat(4, 5vw);
+  grid-gap: 1rem;
+}
+
+#instagram .insta__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#instagram .insta__item {
+  position: relative;
+}
+
+#instagram .insta__item--1 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+#instagram .insta__item--2 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+#instagram .insta__item--3 {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 8;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+#instagram .insta__item--4 {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 8;
+  -ms-grid-row: 5;
+      grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+#instagram .insta__item--5 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+#instagram .insta__item--6 {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+}
+
+#menu {
+  padding-top: 10rem;
+}
+
+#menu #lunch,
+#menu #dinner,
+#menu #cake {
+  padding: 5rem 0;
+}
+
+#menu #lunch h2,
+#menu #dinner h2,
+#menu #cake h2 {
+  background-color: #ffbebc;
+  color: white;
+  line-height: 3rem;
+}
+
+#menu #cake h2 {
+  margin-bottom: 2rem;
+}
+
+#menu #cake .card-header {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+#reserve {
+  padding: 5rem 0;
+}
+
+#reserve h2 {
+  background-color: rgba(237, 237, 237, 0.7);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+#reserve .btn-primary {
+  background-color: #ffbebc;
+  border: none;
+}
+
+#warning {
+  padding: 3rem 0;
+  border-color: #ffbebc !important;
+}
+
+#warning h3 {
+  font-size: 2.4rem;
+  background-color: #ededed;
+}
+
+#warning h4 {
+  font-size: 2rem;
+  letter-spacing: .1rem;
+}
+
+#warning h4:before {
+  content: "※";
+}
+
+#footer {
+  color: white !important;
+  background-color: #ffbebc;
+  letter-spacing: 0.1rem;
+}
+
+#footer footer {
+  color: white;
+  background-color: black;
+}
+
+.gototop a {
+  font-size: 3rem;
+  color: white;
+}
+
+#SNS {
+  padding: 1rem;
+}
+
+#SNS a {
+  color: white;
+  font-size: 5rem;
+}
+
+#SNS a:hover {
+  opacity: 0.7;
+}
+
+#sitemap ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+#sitemap ul li {
+  padding: 1rem;
+}
+
+#sitemap ul li a {
+  color: white !important;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  /*1 rem = 10px*/
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: #ffbebc;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+  color: #222222;
+  text-decoration: underline;
+}
+
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: #222222;
+  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p, a {
+  font-size: 1.6rem;
+}
+
+form {
+  font-size: 1.6rem;
+}
+
+form .form-control {
+  font-size: 1.4rem;
+}
+
+/**
+ * Clear inner floats
+ */
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/**
+ * Main content containers
+ * 1. Make the container full-width with a maximum width
+ * 2. Center it in the viewport
+ * 3. Leave some space on the edges, especially valuable on small screens
+ */
+.container {
+  max-width: 1180px;
+  /* 1 */
+  margin-left: auto;
+  /* 2 */
+  margin-right: auto;
+  /* 2 */
+  padding-left: 20px;
+  /* 3 */
+  padding-right: 20px;
+  /* 3 */
+  width: 100%;
+  /* 1 */
+}
+
+/**
+ * Hide text while making it readable for screen readers
+ * 1. Needed in WebKit-based browsers because of an implementation bug;
+ *    See: https://code.google.com/p/chromium/issues/detail?id=457146
+ */
+.hide-text {
+  overflow: hidden;
+  padding: 0;
+  /* 1 */
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+/**
+ * Hide element while making it readable for screen readers
+ * Shamelessly borrowed from HTML5Boilerplate:
+ * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+ */
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*--- Bootstrap Mobile Gutter Fix --*/
+.row,
+.container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*--- Fix for Fixed Navbar jumping on scroll --*/
+.fixed-top {
+  -webkit-backface-visibility: hidden;
+}
+
+/*--- Fixed Landing Page Section --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/*--- iOS Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+}
+
+.fixed-wrap {
+  clip: rect(auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+
+.fixed {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #ffbebc;
+}
+
+#home,
+.nav {
+  font-family: 'Lilita One', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */

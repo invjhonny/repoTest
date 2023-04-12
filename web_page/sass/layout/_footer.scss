@@ -1,0 +1,45 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+#footer {
+    color: white!important;
+    background-color: $pastel-red;
+    letter-spacing: 0.1rem;
+    footer {
+        color: white;
+        background-color: black;
+    }
+}
+
+.gototop {
+    a {
+        font-size: 3rem;
+        color: white;
+    }
+}
+
+#SNS {
+    padding: 1rem;
+    a {
+        color: white;
+        font-size: 5rem;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
+
+#sitemap {
+    ul {
+        list-style: none;
+        margin-bottom: 0;
+        li {
+            padding: 1rem;
+            a {
+                color: white!important;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+            }
+        }
+    }
+}
